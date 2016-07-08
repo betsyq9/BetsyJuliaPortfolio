@@ -1,0 +1,38 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10em;
+}
+
+.linkedin_transition, .behance_transition, .github_transition, .instagram_transition {
+  display: inline;
+}
+
+.linkedin_transition:after, .behance_transition:after, .github_transition:after, .instagram_transition:after {
+  width: 0px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .5s linear;
+}
+
+.linkedin_transition:after {
+  content: 'LinkedIn';
+}
+
+.behance_transition:after {
+  content: 'Behance';
+}
+
+.github_transition:after {
+  content: 'GitHub';
+}
+
+.instagram_transition:after {
+  content: 'Instagram';
+}
+
+.linkedin:hover .linkedin_transition:after, .github:hover .github_transition:after, .behance:hover .behance_transition:after, .instagram:hover .instagram_transition:after {
+  width: 80px;
+}
