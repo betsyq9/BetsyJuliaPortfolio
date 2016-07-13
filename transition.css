@@ -1,3 +1,40 @@
+body {
+  background: #4C0041; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #4C0041, #9C2C4E, #FF667F); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4C0041, #9C2C4E, #FF667F); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4C0041, #9C2C4E, #FF667F); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4C0041, #9C2C4E, #FF667F); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+.logo {
+  background-color: #eae4e1;
+  background-size: cover;
+  }
+
+.menu_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_items a {
+  color: #eae4e1;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 50px 0 50px;
+}
+
+.menu_items a:hover {
+  text-decoration: none;
+}
+
+/*
 div {
   display: flex;
   flex-direction: column;
@@ -5,11 +42,11 @@ div {
   margin-left: 10em;
 }
 
-.linkedin_transition, .behance_transition, .github_transition, .instagram_transition {
+.work_transition, .about_transition, .contact_transition {
   display: inline;
 }
 
-.linkedin_transition:after, .behance_transition:after, .github_transition:after, .instagram_transition:after {
+.work_transition:after, .about_transition:after, .contact_transition:after {
   width: 0px;
   overflow: hidden;
   display: inline-block;
@@ -17,22 +54,37 @@ div {
   transition: .5s linear;
 }
 
-.linkedin_transition:after {
-  content: 'LinkedIn';
+.work_transition:after {
+  content: '';
 }
 
-.behance_transition:after {
-  content: 'Behance';
+.about_transition:after {
+  content: '';
 }
 
-.github_transition:after {
-  content: 'GitHub';
+.contact_transition:after {
+  content: '';
 }
 
-.instagram_transition:after {
-  content: 'Instagram';
-}
-
-.linkedin:hover .linkedin_transition:after, .github:hover .github_transition:after, .behance:hover .behance_transition:after, .instagram:hover .instagram_transition:after {
+.work:hover .work_transition:after, .about:hover .about_transition:after, .contact:hover .contact_transition:after {
   width: 80px;
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/
