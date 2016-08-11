@@ -83,7 +83,7 @@ h2 {
 }
 
 .contact_list a {
-  margin: 5em 2em 1em 2em;
+  margin: 3em 2em 0em 2em;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -111,7 +111,6 @@ h2 {
    border-radius: 4px;
    -webkit-transition-duration: 0.4s; /* Safari */
    transition-duration: 0.4s;
-   margin-top: 1em;
    margin-bottom: 2em;
    width: 5em;
    position: inherit;
@@ -238,8 +237,8 @@ h2 {
 }
 
 .contact_list a {
-  margin: 0;
-  padding: 1em;
+  margin: -1em 0 -2em 0;
+    padding: .5em;
 }
 
 h1 {
@@ -272,7 +271,7 @@ h1 {
 
 /**************Phone***************/
 
-@media screen and (min-width: 550px) and (max-width: 830px) {
+@media screen and (min-width: 550px) and (max-width: 800px) {
 
 body {
   overflow-x: hidden;
@@ -310,17 +309,6 @@ body {
   margin: 0em;
   }
 
-.contact_list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact_list a {
-  margin: 0;
-  padding: 1em;
-}
 
 h1 {
   font-size: 2.3em;
@@ -339,13 +327,23 @@ h1 {
   flex-direction: column;
 
 }
+   .contact_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_list a {
+  margin: 0;
+  padding: 1em;
+}
 
 
 }
 
 /**************Tablet***************/
 
-@media screen and (min-width: 830px) and (max-width: 1120px) {
+@media screen and (min-width: 800px) and (max-width: 1120px) {
 
 
 .main_nav {
@@ -375,7 +373,6 @@ h1 {
 
   .contact_list {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -424,3 +421,6 @@ h1 {
 
 
  /**********************************/
+
+
+  
