@@ -11,71 +11,87 @@ body {
 
 
 
-.logo {
-  background-color: #eae4e1;
-  background-size: cover;
-  }
+
+/*******************   Logo styles ***************/
+
+.logo_container {
+
+}
+
+.main_logo {
+  display: block;
+  margin: auto;
+  width: 380px;
+  padding-top: 10em;
+  padding-bottom: 4em;
+  vertical-align: middle;
+   transition:all 3s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    -o-transition:all 1s ease;
+}
+
+.main_logo:hover {
+ transition:all 3s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    -o-transition:all 1s ease;
+}
+
+/*****************/
+
+
+
+/************** Menu *****************/
 
 .menu_items {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 
 .menu_items a {
   color: #eae4e1;
   text-transform: uppercase;
-  font-size: 2em;
-  font-weight: bold;
-  margin: 0 50px 0 50px;
+  font-size: 1.30em;
+  margin: 0 28px;
+  letter-spacing: 5px;
+  font-weight:  normal;
 }
 
 .menu_items a:hover {
   text-decoration: none;
+  color: #4C0041;
+    -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+}
+ /**************Media Queries***************/
+
+
+/**************Phone***************/
+
+@media (max-width: 660px) {
+
+.main_logo {
+  width: 50%;
+  padding-top: 5em;
 }
 
-/*
-div {
-  display: flex;
+.work_button, .about, .contact {
+  margin: .75em;
+}
+
+.menu_items {
   flex-direction: column;
-  align-items: flex-start;
-  margin-left: 10em;
+  padding: 1em;
+ }
+
+.menu_items a {
+  font-size: 1.5em;
+  padding: .5em;
 }
-
-.work_transition, .about_transition, .contact_transition {
-  display: inline;
-}
-
-.work_transition:after, .about_transition:after, .contact_transition:after {
-  width: 0px;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
-  transition: .5s linear;
-}
-
-.work_transition:after {
-  content: '';
-}
-
-.about_transition:after {
-  content: '';
-}
-
-.contact_transition:after {
-  content: '';
-}
-
-.work:hover .work_transition:after, .about:hover .about_transition:after, .contact:hover .contact_transition:after {
-  width: 80px;
-}
-*/
-
-
-
-
-
-
 
 
 
